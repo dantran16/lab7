@@ -10,6 +10,6 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$(".likeCtr").click(function(){
-		gtag("send", "event", "like", "click");
+		ga("send", "event", "like", "click");
 	});
 }
